@@ -8,13 +8,11 @@ body {
   text-align: center;
   font-family: "Geist Mono", sans-serif;
   background: linear-gradient(to right, #ff8a00, #da1b60);
-  padding: 2rem;
 }
 
 .container {
-  width: 90%;
-  margin: 0 auto;
-  height: 100vh;
+  margin: 0px 20px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -31,8 +29,7 @@ h1 {
 }
 
 #question-image {
-  max-width: 1000px;
-  width: 70%;
+  width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
 }
@@ -40,13 +37,14 @@ h1 {
 .answer-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
 }
 
 .answer-box {
   text-align: center;
   background: white;
   aspect-ratio: 16 / 9;
-  border: 1px solid #ccc;
+  border: 5px solid #000000;
   display: flex;
   align-items: center;
   justify-content: center;
