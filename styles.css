@@ -39,6 +39,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .answer-box {
